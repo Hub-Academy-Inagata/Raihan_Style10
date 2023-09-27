@@ -1,0 +1,180 @@
+/* navbar */
+.navbar img {
+    width: 158px;
+    height: 38px;
+}
+.navbar button {
+    background-color: white;
+    color: #2ECB89;
+    border-radius: 50px;
+    width: 123px;
+    border-style: none;
+}
+/* akhir navbar */
+
+/* jumbotron */
+
+
+.jumbotron img {
+    height: 550px;;
+    width: auto;
+    bottom: 0;
+}
+
+#leftjumbotron {
+    margin-top: 100px;
+
+}
+
+.jumbotron button {
+    border-radius: 16px;
+    width: 186px;
+    height: 56px;
+    margin-bottom: 150px;
+}
+/*  akhhir jumbotron */
+
+/* excess */
+.excess {
+    background-color: #2E4B3F;
+}
+
+.excess p{
+    color: white;
+}
+/* akhir excess */
+
+/* carad */
+.card button{
+    border-radius: 16px;
+    width: 186px;
+    height: 56px;
+}
+
+.about {
+    margin-top: 100px;
+}
+/* akhir card */
+
+/* partner */
+.partner {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.partner img {
+    height: auto;
+    width: 100px;
+}
+/* akhir partner */
+
+/* activity */
+.activity a {
+    text-decoration: none;
+    color: #2ECB89;
+}
+
+.activity p {
+    font-size: 16px;
+    color: #787878;
+
+}
+/* akhir activity */
+
+/* join */
+.join {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.join .container{
+    background-color: #29A973;
+    border-radius: 24px;
+}
+
+.join button{
+    background-color: #48D198;
+    border-style: none;
+    border-radius: 16px;
+    font-size: 24px;
+}
+
+.join h1, h2 {
+    color: white;
+}
+/* akhir join */
+
+/* documentation */
+.documentation button{
+    background-color: white;
+    border-style: none;
+}
+
+#navlink a {
+    color: #8F8F8F;
+}
+
+#navlink button:hover {
+    text-decoration: grey underline 1px;
+}
+
+.lastnav {
+    color: #2ED67B;
+    text-decoration: none;
+}
+/* akhir documentation */
+
+/* footer */
+.footer {
+    background-color: #2E4B3F;
+    margin-top: 100px;
+}
+
+#isicard p {
+    padding-top: 15px;
+}
+
+.copyright {
+    border-top: white 1px solid;
+}
+/* akhir footer */
+
+/* video profil */
+.video {
+    margin-top: 100px;
+}
+.video iframe{
+    border-radius: 24px;
+    border-style: none;
+}
+
+#videoprofile {
+    margin-bottom: 150px;
+}
+/* akhir video profil */
+
+/* school bus */
+.school_bus {
+    margin-top: 100px;
+}
+
+#buscard {
+    border-style: none;
+}
+
+.readbus {
+    text-decoration: none;
+}
+
+#pagination {
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* akhir school bus */
+
+/* doc actifity school */
+.doc_actifity {
+    margin-top: 100px;
+}
+/* akhir doc actifity school */
+
