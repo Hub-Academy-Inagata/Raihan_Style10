@@ -1,8 +1,37 @@
-/* navbar */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
 .navbar img {
     width: 158px;
     height: 38px;
+    background-color: white;
+    border-radius: 50px;
+
 }
+
+.navbar a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #444444;
+    margin: 5px 0;
+}
+
+.navbar a.active {
+    border-bottom: 3px solid #444444;
+    padding-bottom: 3px; 
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+}
+
+#lightnavbar a.active {
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+    font-weight: 500;
+}
+
+
 .navbar button {
     background-color: white;
     color: #2ECB89;
@@ -10,19 +39,38 @@
     width: 123px;
     border-style: none;
 }
+
+@media only screen and (max-width: 992px) {
+    header {
+      background-color: #29A973;
+    }
+  }
 /* akhir navbar */
 
 /* jumbotron */
+.jumbotron {
+    margin-top: -100px;
+}
 
+.jumbotron p {
+    color: #787878;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron h1 {
+    font-size: 56px;
+}
 
 .jumbotron img {
-    height: 550px;;
+    height: 100%;
     width: auto;
     bottom: 0;
 }
 
 #leftjumbotron {
-    margin-top: 100px;
+    margin-top: 180px;
+
 
 }
 
@@ -30,7 +78,9 @@
     border-radius: 16px;
     width: 186px;
     height: 56px;
-    margin-bottom: 150px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2ECB89;
+
 }
 /*  akhhir jumbotron */
 
@@ -41,25 +91,59 @@
 
 .excess p{
     color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.excess h1 {
+    font-size: 56px;
 }
 /* akhir excess */
 
 /* carad */
-.card button{
+/* .card button{
     border-radius: 16px;
     width: 186px;
     height: 56px;
-}
+} */
 
 .about {
     margin-top: 100px;
+}
+
+.about button {
+    border-radius: 16px;
+    width: 186px;
+    height: 56px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2ECB89;
+}
+
+.about h1 {
+    font-size: 56px;
+}
+
+.about p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #787878;
 }
 /* akhir card */
 
 /* partner */
 .partner {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.partner h1{
+    font-size: 57px;
+}
+
+.partner p {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #787878;
 }
 
 .partner img {
@@ -70,8 +154,14 @@
 
 /* activity */
 .activity a {
+    font-size: 20px;
     text-decoration: none;
     color: #2ECB89;
+    font-family: 'Poppins', sans-serif;
+}
+
+.activity h1 {
+    font-size: 48px;
 }
 
 .activity p {
@@ -93,13 +183,23 @@
 
 .join button{
     background-color: #48D198;
+    width: 218px;
+    height: 68px;
     border-style: none;
     border-radius: 16px;
     font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+
 }
 
-.join h1, h2 {
-    color: white;
+.join h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.join p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
 }
 /* akhir join */
 
@@ -111,6 +211,23 @@
 
 #navlink a {
     color: #8F8F8F;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navlink a.active {
+    border-bottom: 3px solid #8F8F8F;
+    padding-bottom: 3px; 
+}
+
+.documentation p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.documentation h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
 }
 
 #navlink button:hover {
@@ -120,6 +237,9 @@
 .lastnav {
     color: #2ED67B;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
 }
 /* akhir documentation */
 
@@ -140,8 +260,18 @@
 
 /* video profil */
 .video {
-    margin-top: 100px;
+    margin-top: 120px;
 }
+.video h1 {
+    font-size: 56px;
+}
+.video p {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #3A3B41;
+}
+
+
 .video iframe{
     border-radius: 24px;
     border-style: none;
@@ -152,9 +282,37 @@
 }
 /* akhir video profil */
 
+
+/* guru dan staff */
+.staff h1 {
+    font-size: 56px;
+}
+
+.staff h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.staff p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+/* akhir guru dan staff */
+
 /* school bus */
 .school_bus {
     margin-top: 100px;
+}
+
+#buscard h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+#buscard p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #3A3B41;
 }
 
 #buscard {
@@ -170,11 +328,91 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.pagination a{
+    border: none;
+    color: #787878;
+}
+
+.pagination a:active {
+    color: blue;
+}
+
+
 /* akhir school bus */
+
+/* second school bus */
+#secondbuss {
+    margin-top: -600px;
+    transform: translateY(1000px);
+}
+
+.bg_secondbuss {
+    width: 100%;
+}
+
+#secondbuss h3 {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.share {
+    font-size: 24px;
+}
+
+/* akhir second school bus */
+
+/* artikikel lainya */
+.artikellainya {
+    margin-top: 75px
+}
+
+.artikellainya h1 {
+    font-size: 40px;
+}
+
+.artikellainya h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.artikellainya p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+/* akhir artikel lainya */
 
 /* doc actifity school */
 .doc_actifity {
     margin-top: 100px;
 }
+
+.doc_actifity h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.doc_actifity p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
 /* akhir doc actifity school */
+
+/* isi kontak */
+.isikontak {
+    margin-top: 100px;
+}
+
+.isikontak p {
+    font-size: 24px;
+}
+
+.isikontak button {
+    border-radius: 50px;
+    width: 185px;
+    height: 48px;
+}
+/* akhir isi kontak */
 
