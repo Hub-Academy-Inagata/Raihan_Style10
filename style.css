@@ -20,15 +20,16 @@
 .navbar a.active {
     border-bottom: 3px solid #444444;
     padding-bottom: 3px; 
-    display: inline-block;
-    text-align: center;
     font-weight: 500;
+    display: inline-block;
 }
 
 #lightnavbar a.active {
     border-bottom: 3px solid white;
     padding-bottom: 3px;
     font-weight: 500;
+    display: inline-block;
+
 }
 
 
@@ -43,8 +44,10 @@
 @media only screen and (max-width: 992px) {
     header {
       background-color: #29A973;
+      
     }
   }
+
 /* akhir navbar */
 
 /* jumbotron */
@@ -63,6 +66,7 @@
 }
 
 .jumbotron img {
+    margin-top: 20px;
     height: 100%;
     width: auto;
     bottom: 0;
@@ -70,8 +74,6 @@
 
 #leftjumbotron {
     margin-top: 180px;
-
-
 }
 
 .jumbotron button {
@@ -98,6 +100,7 @@
 .excess h1 {
     font-size: 56px;
 }
+
 /* akhir excess */
 
 /* carad */
