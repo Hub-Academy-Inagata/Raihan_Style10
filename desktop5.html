@@ -38,7 +38,7 @@
               </li>
             </ul>
             <form class="d-flex">
-              <button class="btn btn-light" type="submit">PPOB</button>
+              <button class="btn btn-light" type="submit" id="btnnavbar">PPOB</button>
             </form>
           </div>
         </div>
@@ -50,7 +50,7 @@
     <section class="jumbotron">
       <div class="container-fluid">
         <div class="row d-flex align-items-center">
-          <div class="col-lg-6 ps-5 mb-3" id="leftjumbotron">
+          <div class="col-lg-6 px-5 mb-5" id="leftjumbotron">
             <h1 class="mb-4" data-aos="fade-right">Tuntut Ilmu Untuk Masa Depan Yang Cerah</h1>
             <p class="mb-4" data-aos="fade-left" data-aos-delay="200">jelajahi semua pengetahuan dan ilmu bermanfaat yang berguna untuk kehidupan anda kedepannya agar lebih bermanfaat dalam hidup anda dan orang lain</p>
             <button type="button" class="btn btn-success" data-aos="zoom-in">Mulai Belajar</button>
@@ -66,7 +66,7 @@
     <!-- excess -->
     <section class="excess">
       <div class="container">
-        <div class="row pt-5 pb-4 d-flex align-items-center justify-content-start">
+        <div class="row pt-5 pb-4 d-flex align-items-center justify-content-start" id="axcess-item">
           <div class="col-md-4 mb-3" data-aos="fade-right">
             <div class="row d-flex align-items-center">
               <div class="col-lg-4">
@@ -78,7 +78,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3" data-aos="fade-right" data-aos-delay="150">
-            <div class="row d-flex align-items-center ">
+            <div class="row d-flex align-items-center">
               <div class="col-lg-4">
                 <img src="Assets/kurikulumicon2.png" alt="" class="mb-3" />
               </div>
@@ -137,7 +137,7 @@
             <p>Kami Bekerja sama dengan berbagai lembaga dan perusahaan besar diseluruh Indonesia untuk menyalurkan bakat siswa kami. diharapakan dengan adanaya kerja sama ini siswa dapat meraih prestasi</p>
           </div>
         </div>
-        <div class="row text-center d-flex align-items-center">
+        <div class="row row-cols-3 row-cols-md-3 text-center d-flex align-items-center">
           <div class="col-md-2 mb-3" data-aos="fade-down">
             <img src="Assets/dblacademy.png" alt="" />
           </div>
@@ -172,7 +172,7 @@
             <a href="desktop9.html">Lihat Semua</a>
           </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4"  id="activity-content">
           <div class="col">
             <div class="card h-100 border-light">
               <img src="Assets/activity1.png" class="card-img-top" alt="..." />
@@ -209,9 +209,9 @@
     <section class="join" data-aos="zoom-in">
       <div class="container mx-auto">
         <div class="row mb-5 d-flex align-items-center py-4 px-4">
-          <div class="col-8">
+          <div class="col-sm-8">
             <h1 class="mb-4 text-light">Siap Untuk Bergabung ?</h1>
-            <p class="text-light">Kami akan senantiasa menunggu keikut sertaan anak-anak untuk belajar bersama kami</p>
+            <p class="text-light mb-3">Kami akan senantiasa menunggu keikut sertaan anak-anak untuk belajar bersama kami</p>
           </div>
           <div class="col-md-4 text-center">
             <button type="button" class="btn btn-success" data-aos="zoom-in">Kontak Kami</button>
@@ -222,10 +222,10 @@
     <!-- akhir join -->
 
     <!-- documentation -->
-    <section class="documentation">
+    <section class="documentation" id="coco">
       <div class="container mx-auto">
         <div class="row align-items-center mb-3">
-          <div class="col-auto me-auto">
+          <div class="col-auto me-auto mb-3">
             <ul class="nav nav-underline" id="navlink">
               <li class="nav-item">
                 <button><a class="nav-link active" href="#">Semua</a></button>
@@ -242,7 +242,7 @@
             <a href="desktop9.html" class="lastnav">Lihat Semua</a>
           </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="documentation-content">
           <div class="col">
             <div class="card h-100 border-light">
               <img src="Assets/activity1.png" class="card-img-top" alt="..." />
@@ -354,13 +354,13 @@
           </div>
           <div class="col-md-2 text-white" id="isicard">
             <h5>Informasi</h5>
-            <p>Artikel</p>
-            <p>Galery</p>
+            <a href="desktop10.html"><p>Artikel</p></a>
+            <a href="desktop9.html"><p>Galery</p></a>
           </div>
           <div class="col-md-2 text-white" id="isicard">
             <h5>Tentang</h5>
-            <p>Tentang Kami</p>
-            <p>Hubungi Kami</p>
+            <a href="desktop7.html"><p>Tentang Kami</p></a>
+            <a href="desktop11.html"><p>Hubungi Kami</p></a>
           </div>
           <div class="col-md-2 text-white" id="isicard">
             <h5>Informasi</h5>
@@ -379,24 +379,23 @@
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    
+
     <!-- AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      const activity = document.querySelectorAll('.activity img');
+      const activity = document.querySelectorAll(".activity img");
       activity.forEach((img, i) => {
-        img.dataset.aos = 'zoom-in';
+        img.dataset.aos = "zoom-in";
         img.dataset.aosDelay = i * 100;
-      })
+      });
 
-      const documentation = document.querySelectorAll('.documentation img');
+      const documentation = document.querySelectorAll(".documentation img");
       documentation.forEach((img, i) => {
-        img.dataset.aos = 'zoom-in';
+        img.dataset.aos = "zoom-in";
         img.dataset.aosDelay = i * 100;
-      })
+      });
 
-
-      AOS.init( {
+      AOS.init({
         once: true,
       });
     </script>
