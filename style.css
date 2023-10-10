@@ -3,6 +3,10 @@
 /* responsive */
 
 @media screen and (max-width: 760px) {
+  body {
+    background-size: cover;
+  }
+
   #activity-content {
     padding: 30px 50px;
   }
