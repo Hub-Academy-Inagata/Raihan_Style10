@@ -1,81 +1,278 @@
+/* popins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+/* sf pro rounded */
+@import url(https://db.onlinewebfonts.com/c/ead4092f880f75ff0883ced1856b2c37?family=SF+Pro+Rounded+Regular);
 
 /* responsive */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
-@media screen and (max-width: 760px) {
-  body {
-    background-size: cover;
+@media screen and (max-width: 769px) {
+
+
+  /* jumbotron */
+  #index-jumbotron-image {
+    height: 600px;
+    width: auto;
+  }
+  #leftjumbotron h1 {
+    font-size: 35px;
   }
 
+  #leftjumbotron p {
+    font-size: 20px;
+  }
+
+  /* akhir jumbotron */
+
+  /* axcess */
+  body .excess{
+    padding: 0 10px;
+    text-align: center;
+    
+  }
+
+  body .excess h1 {
+    font-size: 35px;
+    margin: auto;
+  }
+
+  #axcess-about {
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+  }
+
+  #axcess-about img {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+  }
+
+  body .excess p {
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* akhir axcess */
+
+  /* about */
+  body .about h1 {
+    font-size: 35px;
+  }
+  body .about p {
+    font-size: 20px;
+  }
+  /* akhir about */
+
+  /* partner */
+  body .partner {
+    margin-left:  20px;
+    margin-right: 20px;
+  }
+  body .partner h1 {
+    font-size: 35px;
+    margin-right: 20px;
+  }
+  body .partner p {
+    font-size: 20px;
+  }
+  /* akhir partner */
+
+  /* activity */
+  body .activity h1 {
+    font-size: 35px;
+    padding-left: 20px;
+  }
+  body .activity a {
+    font-size: 20px;
+    padding-left: 20px;
+  }
   #activity-content {
     padding: 30px 50px;
   }
 
+  /* join */
+  body .join {
+    margin: 50px 20px;
+  }
+  /* akhir join */
+
+  /* documentation */
+  #navlink .nav-item a {
+    font-size: 15px;
+  }
+  body .lastnav {
+    font-size: 15px;
+    padding-left: 20px;
+  }
   #documentation-content {
     padding: 30px 50px;
   }
-  
+  /* akhir documentation */
+
+  /* video */
+  body .video h1 {
+    font-size: 35px;
+  }
+  body .video p {
+    font-size: 20px;
+  }
+  /* akhir video */
+
+  /* guru dan staff */
+  body .staff h1 {
+    font-size: 30px;
+  }
+  /* akhir guru dan staff */
+
+  /* school bus */
+  #buscard .card-title {
+    font-size: 30px;
+  }
+  #buscard .card-text {
+    font-size: 15px;
+  }
+
   #documentation-item {
     padding: 0 50px;
   }
+  #berita-navlink .nav-item a {
+    font-size: 15px;
+  }
+  /* akhir school bus */
 
+  /* school bus documentation */
   #doc_actifity-item {
     padding: 0 50px;
   }
-  }
+  /* akhir school bus documentation */
 
-@media screen and (max-width: 992px) {
+  /* doc actifity school */
+  body .doc_actifity .card-title {
+    font-size: 20px;
+  }
+  body .doc_actifity .card-text {
+    font-size: 15px;
+  }
+  /* akhir doc actifity school */
+
+}
+
+@media screen and (max-width: 991px) {
+  /* navbar */
   header {
     background-color: #29a973;
     text-decoration: none;
     border-style: none;
   }
-
-  #axcess-item .row{
+  #btn-ppob {
     text-align: center;
-
+    justify-content: center;
   }
+  #btnnavbar {
+    width: 100%;
+    display: inline-block;
+  }
+  #greenbtnnavbar {
+    width: 100%;
+    display: inline-block;
+  }
+  /* akhir navbar */
 
+  /* jumbotron */
+  #jumbotron-btn{
+    width: 100%;
+  }
+  /* akhir jumbotron */
+
+  /* axcess */
+  #axcess-item .row {
+    text-align: center;
+  }
+  /* akhir axcess */
+
+  /* activity */
+  #activity-content h5 {
+    font-size: 18px;
+  }
+  #activity-content p {
+    font-size: 15px;
+  }
+  /* akhir activity */
+
+  /* join */
   body .join h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   body .join p {
     font-size: 25px;
   }
+  /* akhir join */
 
-  #navlink .nav-item a {
-    font-size: 18px;
+
+
+  /* documentation content */
+  #documentation-content h5 {
+    font-size: 13px;
   }
-  body .lastnav {
+  #documentation-content p {
+    font-size: 10px;
+  }
+  /* documentation content */
+
+  /* berita */
+  #documentation-item h5 {
     font-size: 18px;
-    padding-left: 20px;
   }
 
   #buscard {
     padding: 0 10px;
   }
 
-  #pagination p{
+  #pagination p {
     font-size: 15px;
   }
 
-  #pagination a{
+  #pagination a {
     font-size: 15px;
   }
 
-  #text-contact{
+  /* detail berita */
+  #news-title {
+    font-size: 35px;
+  }
+
+  #date-news {
+    font-size: 20px;
+  }
+
+  #artikellainya-item h5 {
+    font-size: 18px;
+  }
+  body .artikellainya h1 {
+    font-size: 30px;
+  }
+
+  #text-contact {
     padding: 0 10px;
   }
-/* 
+
+  
   #doc_actifity-item p{
-    font-size: 12px;
+    font-size: 15px;
   }
 
   #doc_actifity-item h5{
-    font-size: 14px;
-  } */
-
+    font-size: 18px;
+  }
 }
 
 /* akhir responsive */
@@ -142,16 +339,16 @@
   background-color: white;
   color: #2ecb89;
   border-radius: 50px;
-  width: 123px;
   border-style: none;
+  padding: 5px 30px;
 }
 
 #greenbtnnavbar {
   color: white;
   background-color: #2ecb89;
   border-radius: 50px;
-  width: 123px;
   border-style: none;
+  padding: 5px 30px;
 }
 
 /* akhir navbar */
@@ -169,6 +366,13 @@
 
 .jumbotron h1 {
   font-size: 56px;
+  font-family: SF Pro Rounded Regular;
+  font-weight: 700;
+}
+
+#index-jumbotron-image {
+  height: 750px;
+  width: auto;
 }
 
 .jumbotron img {
@@ -188,6 +392,7 @@
   height: 56px;
   font-family: "Poppins", sans-serif;
   background-color: #2ecb89;
+  border-color: transparent;
 }
 /*  akhhir jumbotron */
 
@@ -204,6 +409,21 @@
 
 .excess h1 {
   font-size: 56px;
+  font-family: SF Pro Rounded Regular;
+  font-weight: 700;
+}
+
+#axcess-about p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#axcess-about h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
 }
 
 /* akhir excess */
@@ -225,10 +445,13 @@
   height: 56px;
   font-family: "Poppins", sans-serif;
   background-color: #2ecb89;
+  border-color: transparent;
 }
 
 .about h1 {
   font-size: 56px;
+  font-family: SF Pro Rounded Regular;
+  font-weight: 700;
 }
 
 .about p {
@@ -246,12 +469,17 @@
 
 .partner h1 {
   font-size: 57px;
+  margin-right: 10px;
+  font-family: SF Pro Rounded Regular;
+  font-weight: 700;
 }
 
 .partner p {
   font-size: 24px;
   font-family: "Poppins", sans-serif;
   color: #787878;
+  padding-left: 30px;
+
 }
 
 .partner img {
@@ -270,18 +498,30 @@
 
 .activity h1 {
   font-size: 48px;
+  font-family: SF Pro Rounded Regular;
+  font-weight: 700;
+}
+
+.activity h5 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
 }
 
 .activity p {
   font-size: 16px;
   color: #787878;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
+
 /* akhir activity */
 
 /* join */
 .join {
   margin-top: 120px;
   margin-bottom: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .join .container {
   background-color: #29a973;
@@ -300,6 +540,7 @@
 
 .join h1 {
   font-size: 48px;
+  font-family: SF Pro Rounded Regular;
   font-weight: 700;
 }
 
@@ -327,8 +568,9 @@
 }
 
 .documentation p {
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
+  color: #787878;
 }
 
 .documentation h5 {
@@ -353,12 +595,33 @@
   background-color: #2e4b3f;
   margin-top: 100px;
 }
+footer h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
 
 #isicard p {
   padding-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 #isicard a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+#mid-isicard p {
+  padding-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+#mid-isicard a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   text-decoration: none;
   color: white;
 }
@@ -370,7 +633,7 @@
 
 /* video profil */
 
-#btn-play{
+#btn-play {
   height: 100px;
   width: auto;
   position: absolute;
@@ -379,7 +642,7 @@
   transform: translate(-50%, -50%);
   z-index: 1;
 }
-#bgv{
+#bgv {
   width: 100%;
 }
 
@@ -388,6 +651,8 @@
 }
 .video h1 {
   font-size: 56px;
+  font-family: SF Pro Rounded Regular;
+  font-weight: 600;
 }
 .video p {
   font-size: 24px;
@@ -408,6 +673,8 @@
 /* guru dan staff */
 .staff h1 {
   font-size: 56px;
+  font-family: SF Pro Rounded Regular;
+  font-weight: 600;
 }
 
 .staff h5 {
@@ -445,6 +712,21 @@
   text-decoration: none;
 }
 
+#berita-navlink a {
+  color: #8f8f8f;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+#berita-navlink a.active {
+  padding-bottom: 3px;
+  border-bottom: 2px solid #1FA7FF;
+ 
+}
+#berita-navlink button:hover {
+  text-decoration: #1FA7FF underline 1px;
+}
+
 #pagination {
   margin-bottom: 100px;
   margin-left: auto;
@@ -466,6 +748,14 @@
 #secondbuss {
   margin-top: -600px;
   transform: translateY(1000px);
+}
+.headingnews h1 {
+  font-size: 56px;
+  font-family: SF Pro Rounded Regular;
+}
+.headingnews h3 {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
 }
 
 .bg_secondbuss {
@@ -489,6 +779,8 @@
 
 .artikellainya h1 {
   font-size: 40px;
+  font-family: SF Pro Rounded Regular;
+  font-weight: 700;
 }
 
 .artikellainya h5 {

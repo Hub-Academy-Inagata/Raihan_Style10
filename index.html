@@ -37,9 +37,9 @@
                 <a class="nav-link text-white" aria-current="page" href="desktop11.html">Kontak</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <button class="btn btn-light" type="submit" id="btnnavbar">PPOB</button>
-            </form>
+            <div class="d-flex" id="btn-ppob">
+              <button class="btn btn-light" id="btnnavbar">PPOB</button>
+            </div>
           </div>
         </div>
       </nav>
@@ -53,10 +53,10 @@
           <div class="col-lg-6 px-5 mb-5" id="leftjumbotron">
             <h1 class="mb-4" data-aos="fade-right">Tuntut Ilmu Untuk Masa Depan Yang Cerah</h1>
             <p class="mb-4" data-aos="fade-left" data-aos-delay="200">jelajahi semua pengetahuan dan ilmu bermanfaat yang berguna untuk kehidupan anda kedepannya agar lebih bermanfaat dalam hidup anda dan orang lain</p>
-            <button type="button" class="btn btn-success" data-aos="zoom-in">Mulai Belajar</button>
+            <button type="button" class="btn btn-success" data-aos="zoom-in" id="jumbotron-btn">Mulai Belajar</button>
           </div>
-          <div class="col-lg-6 bg-success text-center pt-5" style="background-size: cover" id="rightjumbotron">
-            <img src="Assets/masjumbotronori.png" alt="" class="img-fluid" data-aos="zoom-in" />
+          <div class="col-lg-6 bg-success text-center pt-5" style="background-size: cover;" id="rightjumbotron">
+            <img src="Assets/masjumbotronori.png" alt="" class="img-fluid" data-aos="zoom-in" id="index-jumbotron-image"/>
           </div>
         </div>
       </div>
@@ -112,7 +112,7 @@
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h1 class="card-title mb-4">Sekolah Alam Insan Mulia Berkarya</h1>
+                <h1 class="card-title mb-4">Sekolah Alam <br>Insan Mulia Berkarya</h1>
                 <p class="card-text mb-4">
                   Sekolah Kami merupakan sekolah informal yang dikelola untuk membantu anak mengembangkan bakat dan kemampuannya. Dengan memberikan kurikulum terbaik agar anak bisa memilih minatnya dan fokus mengembangkan minat tersebut.
                   Sekolah ini didirikan sejak tahun 1989 dan terus berkembang
@@ -133,7 +133,7 @@
           <div class="col-lg-3 mb-4">
             <h1>Partner Kerja Sama</h1>
           </div>
-          <div class="col-8 offset-1">
+          <div class="col-8">
             <p>Kami Bekerja sama dengan berbagai lembaga dan perusahaan besar diseluruh Indonesia untuk menyalurkan bakat siswa kami. diharapakan dengan adanaya kerja sama ini siswa dapat meraih prestasi</p>
           </div>
         </div>
@@ -209,7 +209,7 @@
     <section class="join" data-aos="zoom-in">
       <div class="container mx-auto">
         <div class="row mb-5 d-flex align-items-center py-4 px-4">
-          <div class="col-sm-8">
+          <div class="col-md-8">
             <h1 class="mb-4 text-light">Siap Untuk Bergabung ?</h1>
             <p class="text-light mb-3">Kami akan senantiasa menunggu keikut sertaan anak-anak untuk belajar bersama kami</p>
           </div>
@@ -224,8 +224,8 @@
     <!-- documentation -->
     <section class="documentation" id="coco">
       <div class="container mx-auto">
-        <div class="row align-items-center mb-3">
-          <div class="col-auto me-auto mb-3">
+        <div class="row  mb-3">
+          <div class="col-auto me-auto mb-3 align-items-center">
             <ul class="nav nav-underline" id="navlink">
               <li class="nav-item">
                 <button><a class="nav-link active" href="#">Semua</a></button>
@@ -238,34 +238,34 @@
               </li>
             </ul>
           </div>
-          <div class="col-auto =">
+          <div class="col-auto" style="padding-top: 10px;">
             <a href="desktop9.html" class="lastnav">Lihat Semua</a>
           </div>
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4" id="documentation-content">
           <div class="col">
-            <div class="card h-100 border-light">
+            <div class="card h-100 border-light shadow-sm">
               <img src="Assets/activity1.png" class="card-img-top" alt="..." />
-              <div class="card-body ps-0">
-                <h5 class="card-title">Belajar Mengajar</h5>
+              <div class="card-body ps-3">
+                <h5 class="card-title">Kegiatan Belajar Mengajar Offline Dimulai</h5>
                 <p class="card-text">Kegiatan belajar mengajar diadakan setiap hari Senin hingga Jum’at</p>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100 border-light">
+            <div class="card h-100 border-light shadow-sm">
               <img src="Assets/activity2.png" class="card-img-top" alt="..." />
-              <div class="card-body ps-0">
-                <h5 class="card-title">Kegiatan Belajar Mengajar Offline Dimulai</h5>
+              <div class="card-body ps-3">
+                <h5 class="card-title">Penambilan Raport Semester Ganjil</h5>
                 <p class="card-text">Kegiatan yang adakan saat siswa selesai melakuakan studi sekolah</p>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100 border-light">
+            <div class="card h-100 border-light shadow-sm">
               <img src="Assets/activity3.png" class="card-img-top" alt="..." />
-              <div class="card-body ps-0">
-                <h5 class="card-title">Penambilan Raport Semester Ganjil</h5>
+              <div class="card-body ps-3">
+                <h5 class="card-title">Jam Belajar Yang Efektif Pada Anak 8 - 12 Tahun</h5>
                 <p class="card-text">Kegiatan yang adakan saat siswa selesai melakuakan studi sekolah</p>
               </div>
             </div>
@@ -279,7 +279,7 @@
     <footer class="footer">
       <div class="container py-5">
         <div class="row py-4">
-          <div class="col-md-6">
+          <div class="col-md-4">
             <svg width="128" height="64" viewBox="0 0 128 64" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 28.0517H6.37527V0H0V28.0517Z" fill="white" />
               <path
@@ -352,22 +352,26 @@
               </div>
             </div>
           </div>
-          <div class="col-md-2 text-white mb-3" id="isicard">
-            <h5>Informasi</h5>
-            <a href="desktop10.html"><p>Artikel</p></a>
-            <a href="desktop9.html"><p>Galery</p></a>
-          </div>
-          <div class="col-md-2 text-white mb-3" id="isicard">
-            <h5>Tentang</h5>
-            <a href="desktop7.html"><p>Tentang Kami</p></a>
-            <a href="desktop11.html"><p>Hubungi Kami</p></a>
-          </div>
-          <div class="col-md-2 text-white mb-3" id="isicard">
-            <h5>Informasi</h5>
-            <p>
-              Indonesia <br />
-              Unamed road RT 01 RW 02 Surabaya
-            </p>
+          <div class="col-md-7 offset-md-1 text-white mb-3 pt-5" id="isicard">
+            <div class="row" id="footer-item">
+              <div class="col-4">
+                <h5>Informasi</h5>
+                <a href="desktop10.html"><p>Artikel</p></a>
+                <a href="desktop9.html"><p>Galery</p></a>
+              </div>
+              <div class="col-4">
+                <h5>Tentang</h5>
+                <a href="desktop7.html"><p>Tentang Kami</p></a>
+                <a href="desktop11.html"><p>Hubungi Kami</p></a>
+              </div>
+              <div class="col-4">
+                <h5>Informasi</h5>
+                <p>
+                  Indonesia <br />
+                  Unamed road RT 01 RW 02 Surabaya
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
